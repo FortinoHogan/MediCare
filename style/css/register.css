@@ -1,0 +1,94 @@
+.register-container {
+    height: 100vh;
+    margin: 12rem 0 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    width: 60%;
+    min-height: 100vh;
+    box-shadow: 10px 10px 3rem #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.register-form h1 {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.register-form .input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+.input-group label {
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.input-group input {
+    border: none;
+    border-bottom: 2px solid #000;
+    height: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.button-submit {
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 5rem;
+    background-color: #38abab;
+    border: none;
+}
+
+.radio label {
+    margin-bottom: 0;
+    color: #38abab;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.radio-input {
+    display: flex;
+    gap: 10%;
+}
+
+.radio input {
+    border: #38abab 2px solid;
+    color: #38abab;
+    width: 2rem;
+}
+
+.input-group input:focus {
+    outline: none;
+}
+
+#city {
+    height: 3rem;
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+    border: #000 2px solid;
+    border-radius: 5px;
+}
+
+.input-group .pw {
+    color: #38abab;
+}
+
+.footer-container {
+    margin-top: 1rem;
+}

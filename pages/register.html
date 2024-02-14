@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare</title>
+</head>
+<link rel="stylesheet" href="../style/css/index.css">n
+<link rel="stylesheet" href="../style/css/register.css">
+
+<body>
+    <nav class="nav-container">
+        <a href="index.html">
+            <img src="../style/assets/icon.png" alt="icon">
+        </a>
+        <div class="nav-menus">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="products.html" class="products">
+                    Products
+                </a>
+                <div class="dropdown-menus">
+                    <a href="products.html#healthcare">Healthcare</a>
+                    <a href="products.html#cosmetic">Cosmetic</a>
+                    <a href="products.html#misc">Misc.</a>
+                </div>
+            </div>
+            <a href="aboutUs.html">About Us</a>
+            <a href="register.html">Register</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+        <div class="hamburger-btn">
+            &#9776;
+        </div>
+    </nav>
+
+    <section class="register-container">
+        <form action="" class="register-form" onsubmit="return validasiRegister()">
+            <h1>
+                Register
+            </h1>
+            <div class="input-group">
+                <label for="fullname">Fullname</label>
+                <input type="text" name="fulnname" id="fullname">
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender</label>
+                <div class="radio-input">
+                    <div class="radio">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="city">City</label>
+                <select name="city" id="city">
+                    <option value=""></option>
+                    <option value="jakarta">Jakarta</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="bekasi">Bekasi</option>
+                    <option value="semarang">Semarang</option>
+                    <option value="malang">Malang</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="password" class="pw">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="input-group">
+                <label for="confirm-password" class="pw">Confirm Password</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+            </div>
+            <button class="button-submit">Register</button>
+        </form>
+    </section>
+
+    <footer class="footer-container" id="register-footer">
+        <div class="socials">
+            <a href="https://twitter.com" target="_blank">
+                <img src="../style/assets/twitter.png" alt="twitter">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="../style/assets/facebook.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../style/assets/instagram.png" alt="instagram">
+            </a>
+        </div>
+        <p>Copyright © 2022 Fortino Hogan.All Rights Reserved.</p>
+    </footer>
+
+    <script src="../style/javascript/button.js"></script>
+    <script src="../style/javascript/validation.js"></script>
+</body>
+
+</html>

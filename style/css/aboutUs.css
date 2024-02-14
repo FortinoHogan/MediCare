@@ -1,0 +1,37 @@
+.about-container {
+    /* margin-top: 7rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.about-container h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 2rem 0;
+}
+
+.about-container h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.about-container p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.about-content {
+    width: 80%;
+}
+
+.about-bawah {
+    text-align: start;
+}
+
+.about-text {
+    text-align: start;
+}
